@@ -7,6 +7,7 @@ Created on Thu Feb 17 09:49:44 2022
 
 from flask import Flask, render_template, request
 from strsimpy.cosine import Cosine
+from waitress import serve
 import pickle
 import numpy as np
 import pandas as pd
@@ -27,4 +28,4 @@ def predict():
 
 
 if __name__=="__main__":
-    app.run(debug=True)
+    serve(app, host='0.0.0.0', port=8080)

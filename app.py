@@ -10,6 +10,7 @@ from strsimpy.cosine import Cosine
 import pickle
 import numpy as np
 import pandas as pd
+import time
 
 app = Flask(__name__)
 

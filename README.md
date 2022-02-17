@@ -1,2 +1,2 @@
-# Similarity-score-entire-document
-python, html, strsimpy
+# similarity-score-app
+using cosine similarity

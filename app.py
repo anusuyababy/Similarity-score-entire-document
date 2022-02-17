@@ -21,7 +21,7 @@ def home():
 
 @app.route('/predict', methods=['POST'])
 def predict():
-    
+    time.sleep(6)
     return render_template('table.html')
     
 
